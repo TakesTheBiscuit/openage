@@ -29,6 +29,7 @@
 
  _Note:_ The `qt5` port in vcpkg has been split into multiple packages, build times are acceptable now.
  If you want, you can still use [the prebuilt version](https://www.qt.io/download-open-source/) instead.
+ The offline installer for `qt5` is more reliable for Windows [download installer here](https://www.qt.io/offline-installers)
  If you do so, include `-DCMAKE_PREFIX_PATH=<QT5 directory>` in the cmake configure command.
 
  _Note:_ If you are planning to build the 64-bit version of openage, you are going to need 64-bit libraries. Add command line option `--triplet x64-windows` to the above command or add the environment variable `VCPKG_DEFAULT_TRIPLET=x64-windows` to build x64 libraries. [See here](https://github.com/Microsoft/vcpkg/issues/1254)
